@@ -11,7 +11,6 @@
   grid-template-columns: calc(50% - 5px) calc(50% - 5px);
   grid-gap: 10px 10px;
   min-height: 432px;
-  grid-auto-columns: calc(50% - 5px);
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -83,14 +82,12 @@
 @media (max-width: 991px) {
   .u-section-1 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
-    grid-auto-columns: calc(100% - 0px);
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: 100%;
   }
 
   .u-section-1 .u-container-layout-1 {

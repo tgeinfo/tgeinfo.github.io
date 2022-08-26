@@ -361,6 +361,9 @@ span.fr-img-caption.fr-view {
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
 /*end-commonstyles library*/@charset "UTF-8";
+.u-hidden-block {
+  visibility: hidden!important;
+}
 .u-locked-block {
   pointer-events: none!important;
 }
@@ -1890,7 +1893,7 @@ a {
   width: 100%;
   text-align: center;
   color: #fff;
-  padding: 20px 0px 20px 0px;
+  padding: 20px;
   border: none;
 }
 .u-form .u-form-group.u-form-checkbox,
@@ -1924,6 +1927,12 @@ a {
 .u-form .u-form-vertical .u-form-group.u-form-checkbox,
 .u-form .u-form-vertical .u-form-group.u-form-agree {
   align-items: baseline;
+}
+.u-form .u-form-send-message-close {
+  color: white;
+  position: absolute;
+  right: 8px;
+  top: 0;
 }
 .u-form-send-message {
   z-index: 1;
